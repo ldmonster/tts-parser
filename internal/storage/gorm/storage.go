@@ -8,16 +8,17 @@ import (
 	"log"
 	"os"
 	"path/filepath"
-	"tts/internal/storage/gorm/repository"
-	"tts/internal/storage/gorm/session"
 
-	"tts/internal/storage/gorm/model"
+	"github.com/ldmonster/tts-parser/internal/storage/gorm/repository"
+	"github.com/ldmonster/tts-parser/internal/storage/gorm/session"
+
+	"github.com/ldmonster/tts-parser/internal/storage/gorm/model"
 
 	"gorm.io/driver/sqlite" // Sqlite driver based on CGO
 	"gorm.io/gorm/logger"
 
 	// "github.com/glebarez/sqlite" // Pure go SQLite driver, checkout https://github.com/glebarez/sqlite for details
-	service "tts/internal"
+	service "github.com/ldmonster/tts-parser/internal"
 
 	uberzap "go.uber.org/zap"
 	"gorm.io/gorm"

@@ -5,10 +5,10 @@ import (
 	"errors"
 	"fmt"
 
-	"tts/internal/storage/gorm/model"
-	"tts/internal/storage/gorm/session"
+	"github.com/ldmonster/tts-parser/internal/storage/gorm/model"
+	"github.com/ldmonster/tts-parser/internal/storage/gorm/session"
 
-	service "tts/internal"
+	service "github.com/ldmonster/tts-parser/internal"
 
 	"github.com/mattn/go-sqlite3"
 	"gorm.io/gorm"

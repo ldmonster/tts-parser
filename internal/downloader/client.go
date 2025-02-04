@@ -14,8 +14,9 @@ import (
 	"regexp"
 	"slices"
 	"sync"
-	service "tts/internal"
-	"tts/internal/module"
+
+	service "github.com/ldmonster/tts-parser/internal"
+	"github.com/ldmonster/tts-parser/internal/module"
 
 	"github.com/gabriel-vasile/mimetype"
 	uberzap "go.uber.org/zap"

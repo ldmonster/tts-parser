@@ -10,10 +10,11 @@ import (
 	"strconv"
 	"sync"
 	"time"
-	"tts/internal/downloader"
-	"tts/internal/module"
-	"tts/internal/storage/gorm"
-	"tts/internal/storage/gorm/model"
+
+	"github.com/ldmonster/tts-parser/internal/downloader"
+	"github.com/ldmonster/tts-parser/internal/module"
+	"github.com/ldmonster/tts-parser/internal/storage/gorm"
+	"github.com/ldmonster/tts-parser/internal/storage/gorm/model"
 
 	uberzap "go.uber.org/zap"
 	tele "gopkg.in/telebot.v3"

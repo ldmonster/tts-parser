@@ -6,7 +6,7 @@ import (
 	"regexp"
 	"strings"
 
-	service "tts/internal"
+	service "github.com/ldmonster/tts-parser/internal"
 
 	"github.com/Masterminds/semver"
 )

@@ -2,7 +2,8 @@ package model
 
 import (
 	"database/sql/driver"
-	service "tts/internal"
+
+	service "github.com/ldmonster/tts-parser/internal"
 )
 
 type FileType string

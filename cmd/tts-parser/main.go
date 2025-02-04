@@ -6,12 +6,17 @@ import (
 	"fmt"
 	"os/signal"
 	"syscall"
-	"tts/internal/zap"
+
+	"github.com/ldmonster/tts-parser/internal/zap"
 
 	uberzap "go.uber.org/zap"
 )
 
 func main() {
+	Execute()
+}
+
+func start() {
 	cfg := NewConfig()
 
 	err := cfg.AutoLoadEnvs()
